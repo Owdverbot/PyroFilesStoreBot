@@ -11,7 +11,7 @@ This is Telegram Files Store Bot by [@Owdver_bot](https://github.com/owdver).
 - You can also Do Force Sub to a Channel to allow access the Bot.
 
 ### Demo Bot:
-<a href="https://t.me/bFileStoreBot"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-blue.svg?logo=telegram"></a>
+<a href="https://t.me/ObFileStoreBot"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-blue.svg?logo=telegram"></a>
 
 ## Configs:
 * `API_ID` - Get this from [@TeleORG_Bot](https://t.me/TeleORG_Bot)
@@ -28,7 +28,7 @@ This is Telegram Files Store Bot by [@Owdver_bot](https://github.com/owdver).
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/owdver/PyroFilesStoreBot)
 
 ### Support Group:
-<a href="https://t.me/Ob_Bots_Discuss"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
+<a href="https://t.me/Ob_Projects"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
 
 ### Follow on:
 <p align="left">
