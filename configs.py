@@ -28,7 +28,7 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 👥 **Support Group:** [Ob Bots](https://t.me/ObBots)
 
-📢 **Updates Channel:** [Ob Bots Disscus](https://t.me/Ob_bots_discuss)
+📢 **Updates Channel:** [Ob Projects](https://t.me/Ob_Projects)
 """
 	ABOUT_DEV_TEXT = f"""
 🧑🏻‍💻 **Developer:** @Owdver_bot
