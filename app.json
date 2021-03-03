@@ -8,7 +8,7 @@
         "bot"
     ],
     "repository": "https://github.com/Owdver/PyroFilesStoreBot",
-    "website": "https://telegram.dog/Owdver",
+    "website": "https://telegram.dog/Owdver_bot",
     "success_url": "https://t.me/Obbots",
     "env": {
         "API_ID": {
