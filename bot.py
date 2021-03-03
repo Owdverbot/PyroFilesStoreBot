@@ -64,7 +64,7 @@ async def start(bot, cmd):
 				if user.status == "kicked":
 					await bot.send_message(
 						chat_id=cmd.from_user.id,
-						text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/linux_repo).",
+						text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/Ob_Projects).",
 						parse_mode="markdown",
 						disable_web_page_preview=True
 					)
@@ -86,7 +86,7 @@ async def start(bot, cmd):
 			except Exception:
 				await bot.send_message(
 					chat_id=cmd.from_user.id,
-					text="Something went Wrong. Contact my [Support Group](https://t.me/linux_repo).",
+					text="Something went Wrong. Contact my [Support Group](https://t.me/Ob_Projects).",
 					parse_mode="markdown",
 					disable_web_page_preview=True
 				)
@@ -98,8 +98,8 @@ async def start(bot, cmd):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("Support Group", url="https://t.me/linux_repo"),
-						InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+						InlineKeyboardButton("Support Group", url="https://t.me/Ob_Projects"),
+						InlineKeyboardButton("Bots Channel", url="https://t.me/ObBots")
 					],
 					[
 						InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -123,12 +123,12 @@ async def main(bot, message):
 			forwarded_msg = await message.forward(DB_CHANNEL)
 			file_er_id = forwarded_msg.message_id
 			await forwarded_msg.reply_text(f"#PRIVATE_FILE:\n\n[{message.from_user.first_name}](tg://user?id={message.from_user.id}) Got File Link!", parse_mode="Markdown")
-			share_link = f"https://telegram.dog/{BOT_USERNAME}?start=AbirHasan2005_{file_er_id}"
+			share_link = f"https://telegram.dog/{BOT_USERNAME}?start=Owdver_bot_{file_er_id}"
 			await editable.edit(
 				f"**Your File Stored in my Database!**\n\nHere is the Permanent Link of your file: {share_link} \n\nJust Click the link to get your file!",
 				parse_mode="Markdown",
 				reply_markup=InlineKeyboardMarkup(
-					[[InlineKeyboardButton("Open Link", url=share_link)], [InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates"), InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")]]
+					[[InlineKeyboardButton("Open Link", url=share_link)], [InlineKeyboardButton("Bots Channel", url="https://t.me/ObBots"), InlineKeyboardButton("Support Group", url="https://t.me/Ob_Projects")]]
 				)
 			)
 		except Exception as err:
@@ -149,7 +149,7 @@ async def main(bot, message):
 		try:
 			forwarded_msg = await message.forward(DB_CHANNEL)
 			file_er_id = forwarded_msg.message_id
-			share_link = f"https://telegram.dog/{BOT_USERNAME}?start=AbirHasan2005_{file_er_id}"
+			share_link = f"https://telegram.dog/{BOT_USERNAME}?start=Owdver_bot_{file_er_id}"
 			CH_edit = await bot.edit_message_reply_markup(message.chat.id, message.message_id, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Get Sharable Stored Link", url=share_link)]]))
 			if message.chat.username:
 				await forwarded_msg.reply_text(f"#CHANNEL_BUTTON:\n\n[{message.chat.title}](https://t.me/{message.chat.username}/{CH_edit.message_id}) Channel's Broadcasted File's Button Added!")
@@ -274,7 +274,7 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("Support Group", url="https://t.me/Ob_Bots_Discuss"),
+						InlineKeyboardButton("Support Group", url="https://t.me/Ob_Projects"),
 						InlineKeyboardButton("Bots Channel", url="https://t.me/ObBots")
 					],
 					[
